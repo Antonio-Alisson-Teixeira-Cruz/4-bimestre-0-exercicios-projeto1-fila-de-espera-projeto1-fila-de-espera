@@ -19,13 +19,13 @@ do{if(queue <= 0){
         for(i=0;i<queue.length;i++){
             prompt(
                 `Fila de espera:
-                ${i}° ${queue[i]}
+                ${i}° ${queue[i]}`
             )
 
         }
         question = prompt(`Opções:
             1 - Novo paciente
             2 - Consultar paciente
-            3 - Sair`
+            3 - Sair`)
     }
 }while(question != 3)
