@@ -20,12 +20,12 @@ do{if(queue <= 0){
             prompt(
                 `Fila de espera:
                 ${i}° ${queue[i]}
-            Opções:
-            1 - Novo paciente
-            2 - Consultar paciente
-            3 - Sair`
             )
 
         }
+        question = prompt(`Opções:
+            1 - Novo paciente
+            2 - Consultar paciente
+            3 - Sair`
     }
 }while(question != 3)
